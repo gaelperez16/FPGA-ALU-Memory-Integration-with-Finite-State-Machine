@@ -4,7 +4,7 @@
 ![DE10-Lite](https://img.shields.io/badge/Board-DE10--Lite-green)
 ![Status](https://img.shields.io/badge/Project-Completed-success)
 
-## 🧠 Overview
+##  Overview
 
 This project implements a custom Arithmetic Logic Unit (ALU) integrated with a synchronous memory module on the DE10-Lite FPGA board. The system is written in **VHDL** and supports **16 distinct 4-bit opcodes**, including arithmetic, logic, shift, and comparison operations.
 
@@ -12,7 +12,7 @@ A **7-state Finite State Machine (FSM)** ensures reliable sequential execution o
 
 ---
 
-## 🛠️ Features
+##  Features
 
 - ✅ 16 ALU operations (Add, Sub, INC, DEC, Logical/Arithmetic Shifts, Bitwise Ops, Compare, etc.)
 - ✅ 8-bit output with signed decimal display on HEX3-HEX0
@@ -25,7 +25,7 @@ A **7-state Finite State Machine (FSM)** ensures reliable sequential execution o
 
 ---
 
-## 📦 Project Structure
+## Project Structure
 
 ```plaintext
 .
@@ -36,7 +36,7 @@ A **7-state Finite State Machine (FSM)** ensures reliable sequential execution o
 └── README.md        # Project documentation
 ```
 ## Usage
-🖥 Requirements
+ Requirements
 Intel Quartus Prime Lite (https://www.intel.com/content/www/us/en/software/programmable/quartus-prime/download.html)
 
 DE10-Lite FPGA Board (https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=139&No=1046)
@@ -66,7 +66,7 @@ USB Blaster cable for FPGA programming
 | 4         | 10     | XX     | 0010   | 10          | INC memory[10] to 3       | 0003        |
 | 5         | 01     | 10     | 0000   | 00          | ADD 2 + 3 = 5             | 0005        |
 
-🧠 Learning Outcomes
+ Learning Outcomes
   Digital system design using VHDL
   FSM implementation and timing management
   Memory-ALU interfacing
