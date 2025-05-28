@@ -52,6 +52,7 @@ USB Blaster cable for FPGA programming
 | B Addr | Memory read B        | SW7-SW6    |
 | Opcode | ALU operation select | SW5-SW2    |
 | W Addr | Memory write address | SW1-SW0    |
+
 -BTN: Executes one full operation cycle.
 -HEX0–HEX3: Shows signed decimal output.
 -LEDR[9:2]: Status flags (C, P, O, Pos, Zero, Neg).
